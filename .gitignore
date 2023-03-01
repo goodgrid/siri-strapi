@@ -1,2 +1,6 @@
 node_modules
 package-lock.json
+public/uploads
+.DS_Store
+yarn.lock
+*.db
