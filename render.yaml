@@ -3,7 +3,6 @@ services:
     name: strapi
     env: node
     plan: starter
-    region: frankfurt
     buildCommand: yarn install && yarn build
     startCommand: rsync -a public/ /data/public/ && yarn develop
     healthCheckPath: /_health
