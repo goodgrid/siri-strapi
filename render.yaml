@@ -6,7 +6,7 @@ services:
     buildCommand: yarn install && yarn build
     startCommand: rsync -a public/ /data/public/ && yarn develop
     healthCheckPath: /_health
-    autoDeploy: false
+    autoDeploy: true
     disk:
       name: strapi-data
       mountPath: /data
