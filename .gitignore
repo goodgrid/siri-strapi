@@ -7,3 +7,6 @@ yarn.lock
 *.jpeg
 *.jpg
 *.tif
+public/uploads
+build
+.env
